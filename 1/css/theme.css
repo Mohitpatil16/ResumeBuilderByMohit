@@ -1,0 +1,137 @@
+/* List Styles */
+ul.nobullet {
+	list-style: none;
+}
+ul.disc {
+	list-style: disc;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.circle {
+	list-style: circle;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.square {
+	list-style: square;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.dash {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+ul.dash li {
+	padding-left: 20px;
+	text-indent: -1em;
+}
+ul.dash li:before {
+	content: "-";
+	padding-right: 10px;
+}
+ul.decimal {
+	list-style: decimal;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.upper-roman {
+	list-style: upper-roman;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.lower-roman {
+	list-style: lower-roman;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.upper-alpha {
+	list-style: upper-alpha;
+	margin-left: 0;
+	padding-left: 20px;
+}
+ul.lower-alpha {
+	list-style: lower-alpha;
+	margin-left: 0;
+	padding-left: 20px;
+}
+
+/* Corner Style */
+.corner {
+	border-radius: 8px;
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+	display: inline-block;
+	float: right;
+}
+.toggle-option {
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #444;
+	color: #fff;
+	transition: background-color 0.3s, color 0.3s;
+}
+.toggle-option:hover {
+	background-color: #555;
+}
+.toggle-option.selected {
+	background-color: #FF5722;
+	color: #fff;
+}
+
+/* Custom Button Styles */
+.custom-button {
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #3498DB;
+	color: #fff;
+	transition: background-color 0.3s, transform 0.2s;
+}
+.custom-button:hover {
+	background-color: #2980B9;
+	transform: scale(1.05);
+}
+.custom-button.selected {
+	background-color: #E74C3C;
+}
+
+/* Button Group Styles */
+.btn-group {
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.btn-violet {
+	background-color: #9B59B6;
+	color: #fff;
+}
+.btn-violet:hover {
+	background-color: #8E44AD;
+}
+
+.btn-teal {
+	background-color: #1ABC9C;
+	color: #fff;
+}
+.btn-teal:hover {
+	background-color: #16A085;
+}
+
+/* Keyboard Shortcut Styles */
+kbd {
+	padding: 3px 6px;
+	background-color: #555;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 0.9em;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
